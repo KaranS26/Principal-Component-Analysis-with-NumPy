@@ -1,0 +1,37 @@
+For reference purpose only, please don't copy if you're doing the guided project.
+
+Q.1. For a pandas data frame df, what function is used to return the first five rows?
+
+1. df.tail()
+2. df.info()
+3. df.head() -> CORRECT
+
+Q.2. How would you drop rows in a dataframe df if all the values are missing?
+
+1. df.dropnull(how='all', inplace=True)
+2. df.dropnull(how='all', inplace=True)
+3. df.dropnull(how='all', inplace=True) -> CORRECT
+
+Q.3. In the hands-on component of this course, you created the below figure. It is a scatter plot of the sepal width against the sepal length of three types of iris plant. What argument did you use to color the data points by the type of plant?
+
+1. x
+2. style
+3. y 
+4. hue -> CORRECT
+
+Q.4. It is important to standardize the values in the data set before applying PCA.
+
+1. True -> CORRECT
+2. False
+
+
+Q.5. Say you have a standardized data set stored in a numpy array X. How would you use NumPy to calculate the covariance matrix Σ ?
+
+1. covariance_matrix = np.linalg.cov(X.T)
+2. covariance_matrix = np.cov(X.T) -> CORRECT
+3. covariance_matrix = np.corr(X.T)
+
+Q.6.
+
+1. covariance_matrix = np.linalg.cov(X.T) -> CORRECT
+2. covariance_matrix = np.linalg.cov(X.T)
